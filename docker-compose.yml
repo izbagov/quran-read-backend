@@ -4,13 +4,13 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        NODE_VERSION: "22.12.0"
+        NODE_VERSION: "24.18.0"
     image: quran-read-backend:1.0.0
     container_name: quran-read-backend
     restart: unless-stopped
     environment:
       NODE_ENV: production
-      PORT: "4423"
+      PORT: "3000"
       QURAN_DATABASE_PATH: /app/data/quran.sqlite
     ports:
-      - "4423:4423"
+      - "127.0.0.1:4423:3000"
