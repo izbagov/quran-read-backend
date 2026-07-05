@@ -8,7 +8,7 @@ In the project directory, you can run:
 ### `npm run dev`
 
 To start the app in dev mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:4423](http://localhost:4423) to view it in the browser.
 
 ### `npm start`
 
@@ -31,7 +31,7 @@ Build and run locally:
 docker compose up -d --build
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:4423](http://localhost:4423).
 
 For production secrets, run Docker Compose through your secret manager CLI, for
 example:

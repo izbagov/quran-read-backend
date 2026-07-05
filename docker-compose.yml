@@ -10,7 +10,7 @@ services:
     restart: unless-stopped
     environment:
       NODE_ENV: production
-      PORT: "3000"
+      PORT: "4423"
       QURAN_DATABASE_PATH: /app/data/quran.sqlite
     ports:
-      - "3000:3000"
+      - "4423:4423"
